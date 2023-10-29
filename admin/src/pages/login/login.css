@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Wrapper {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+  padding: 40px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input input {
+  padding: 10px;
+  margin: 20px 0px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 10px;
+}
+.btn button {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 30px;
+  /* width: 90%; */
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+}
+.start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.start button {
+  padding: 10px 30px;
+  border: none;
+  background-color: rgb(205, 244, 205);
+  cursor: pointer;
+
+  font-weight: 600;
+  border-radius: 10px;
+}
